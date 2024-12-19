@@ -12,7 +12,7 @@ class GPU_Config:
 
     def __init__(self):
         pass
-    def check_gpu_configration() -> None:
+    def check_gpu_configration(self) -> None:
         """
         This function checks the GPU configuration of the system.
 
@@ -22,8 +22,11 @@ class GPU_Config:
         return
         - (None)
         """
-
+        print('-'*34)
+        print('GPU Configration ')
+        print('-'*34)
         if torch.cuda.is_available(): # This function check GPU is avilable or not if present then it return True else False
+           
            
            num_gpu = torch.cuda.device_count() # get the number of GPU
            print(f"Total number of GPU's available: {num_gpu}") 
