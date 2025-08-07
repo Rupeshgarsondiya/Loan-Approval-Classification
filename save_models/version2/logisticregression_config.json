@@ -1,0 +1,15 @@
+{
+    "model_name": "logisticregression",
+    "timestamp": "2025-08-07T15:19:28.751519",
+    "hyperparameters": {
+        "C": 1.0,
+        "penalty": "l2",
+        "max_iter": 100,
+        "random_state": 40
+    },
+    "metrics": {
+        "train_accuracy": 0.8915,
+        "test_accuracy": 0.89
+    },
+    "file_path": "/home/rupesh-garsondiya/workstation/lab/Loan-Approval-Classification/Loan-Approval-Classification/save_models/version2/logisticregression.pkl"
+}

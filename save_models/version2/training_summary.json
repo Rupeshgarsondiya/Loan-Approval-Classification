@@ -1,0 +1,102 @@
+{
+    "version": 2,
+    "timestamp": "2025-08-07T15:19:28.751487",
+    "dataset": {
+        "train_shape": [
+            36000,
+            13
+        ],
+        "test_shape": [
+            9000,
+            13
+        ],
+        "target": "loan_status"
+    },
+    "environment": {
+        "python_version": "3.12.3",
+        "tensorflow_version": "2.19.0",
+        "sklearn_version": "1.7.1",
+        "gpu": "CPU"
+    },
+    "models": {
+        "logisticregression": {
+            "model_name": "logisticregression",
+            "timestamp": "2025-08-07T15:19:28.751519",
+            "hyperparameters": {
+                "C": 1.0,
+                "penalty": "l2",
+                "max_iter": 100,
+                "random_state": 40
+            },
+            "metrics": {
+                "train_accuracy": 0.8915,
+                "test_accuracy": 0.89
+            },
+            "file_path": "/home/rupesh-garsondiya/workstation/lab/Loan-Approval-Classification/Loan-Approval-Classification/save_models/version2/logisticregression.pkl"
+        },
+        "decisiontree": {
+            "model_name": "decisiontree",
+            "timestamp": "2025-08-07T15:19:29.415451",
+            "hyperparameters": {
+                "criterion": "gini",
+                "max_depth": 10,
+                "min_samples_split": 5,
+                "min_samples_leaf": 1
+            },
+            "metrics": {
+                "train_accuracy": 0.9306944444444445,
+                "test_accuracy": 0.9128888888888889
+            },
+            "file_path": "/home/rupesh-garsondiya/workstation/lab/Loan-Approval-Classification/Loan-Approval-Classification/save_models/version2/decisiontree.pkl"
+        },
+        "randomforest": {
+            "model_name": "randomforest",
+            "timestamp": "2025-08-07T15:19:29.510889",
+            "hyperparameters": {
+                "n_estimators": 100,
+                "max_features": "auto",
+                "max_depth": 10,
+                "bootstrap": true,
+                "n_jobs": -1
+            },
+            "metrics": {
+                "train_accuracy": 0.9306944444444445,
+                "test_accuracy": 0.9181111111111111
+            },
+            "file_path": "/home/rupesh-garsondiya/workstation/lab/Loan-Approval-Classification/Loan-Approval-Classification/save_models/version2/randomforest.pkl"
+        },
+        "knn": {
+            "model_name": "knn",
+            "timestamp": "2025-08-07T15:19:29.804835",
+            "hyperparameters": {
+                "n_neighbors": 5,
+                "algorithm": "brute",
+                "p": 2,
+                "weights": "distance",
+                "metric": "minkowski"
+            },
+            "metrics": {
+                "train_accuracy": 1.0,
+                "test_accuracy": 0.8917777777777778
+            },
+            "file_path": "/home/rupesh-garsondiya/workstation/lab/Loan-Approval-Classification/Loan-Approval-Classification/save_models/version2/knn.pkl"
+        },
+        "neuralnetwork": {
+            "model_name": "neuralnetwork",
+            "timestamp": "2025-08-07T15:19:30.307860",
+            "hyperparameters": {
+                "epochs": 50,
+                "batch_size": 64,
+                "optimizer": "adam",
+                "loss": "binary_crossentropy"
+            },
+            "metrics": {
+                "train_accuracy": 0.9260555505752563,
+                "val_accuracy": 0.9156666398048401,
+                "train_loss": 0.16240300238132477,
+                "val_loss": 0.19235266745090485
+            },
+            "file_path": "/home/rupesh-garsondiya/workstation/lab/Loan-Approval-Classification/Loan-Approval-Classification/save_models/version2/neuralnetwork.h5"
+        }
+    }
+}

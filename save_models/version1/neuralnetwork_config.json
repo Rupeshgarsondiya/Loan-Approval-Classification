@@ -1,0 +1,17 @@
+{
+    "model_name": "neuralnetwork",
+    "timestamp": "2025-08-07T15:16:21.563119",
+    "hyperparameters": {
+        "epochs": 50,
+        "batch_size": 32,
+        "optimizer": "adam",
+        "loss": "binary_crossentropy"
+    },
+    "metrics": {
+        "train_accuracy": 0.929611086845398,
+        "val_accuracy": 0.9162222146987915,
+        "train_loss": 0.15658928453922272,
+        "val_loss": 0.2056998312473297
+    },
+    "file_path": "/home/rupesh-garsondiya/workstation/lab/Loan-Approval-Classification/Loan-Approval-Classification/save_models/version1/neuralnetwork.h5"
+}

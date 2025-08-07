@@ -1,0 +1,16 @@
+{
+    "model_name": "randomforest",
+    "timestamp": "2025-08-07T15:16:17.131657",
+    "hyperparameters": {
+        "n_estimators": 100,
+        "max_features": "log2",
+        "max_depth": 10,
+        "bootstrap": true,
+        "n_jobs": -1
+    },
+    "metrics": {
+        "train_accuracy": 0.9318888888888889,
+        "test_accuracy": 0.9183333333333333
+    },
+    "file_path": "/home/rupesh-garsondiya/workstation/lab/Loan-Approval-Classification/Loan-Approval-Classification/save_models/version1/randomforest.pkl"
+}

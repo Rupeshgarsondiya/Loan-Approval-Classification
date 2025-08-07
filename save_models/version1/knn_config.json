@@ -1,0 +1,16 @@
+{
+    "model_name": "knn",
+    "timestamp": "2025-08-07T15:16:17.429217",
+    "hyperparameters": {
+        "n_neighbors": 5,
+        "algorithm": "kd_tree",
+        "p": 2,
+        "weights": "distance",
+        "metric": "minkowski"
+    },
+    "metrics": {
+        "train_accuracy": 1.0,
+        "test_accuracy": 0.8917777777777778
+    },
+    "file_path": "/home/rupesh-garsondiya/workstation/lab/Loan-Approval-Classification/Loan-Approval-Classification/save_models/version1/knn.pkl"
+}
